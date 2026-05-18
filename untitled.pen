@@ -1,0 +1,1709 @@
+{
+  "version": "2.11",
+  "children": [
+    {
+      "type": "frame",
+      "id": "wz0qE",
+      "x": 0,
+      "y": 0,
+      "name": "Kotsi Landing Page",
+      "width": 1440,
+      "fill": "$ink",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "g22Ak",
+          "name": "Hero Section",
+          "width": "fill_container",
+          "fill": [
+            "$ink",
+            {
+              "type": "image",
+              "enabled": true,
+              "url": "pencil-ai://g22Ak",
+              "mode": "fill"
+            },
+            {
+              "type": "gradient",
+              "gradientType": "linear",
+              "enabled": true,
+              "rotation": 180,
+              "size": {
+                "height": 1
+              },
+              "colors": [
+                {
+                  "color": "#0A0A0ACC",
+                  "position": 0
+                },
+                {
+                  "color": "#0A0A0A55",
+                  "position": 0.35
+                },
+                {
+                  "color": "#0A0A0A44",
+                  "position": 0.65
+                },
+                {
+                  "color": "#0A0A0ABB",
+                  "position": 1
+                }
+              ]
+            }
+          ],
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            60,
+            80,
+            80,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "L8L4p",
+              "name": "navBar",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "hZ0ks",
+                  "name": "brandName",
+                  "fill": "$white",
+                  "content": "Small Street Photography",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "evz7F",
+                  "name": "navRight",
+                  "gap": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "PDnML",
+                      "fill": "$white",
+                      "content": "Portfolio",
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "text",
+                      "id": "Bvnam",
+                      "fill": "$white",
+                      "content": "Services",
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "text",
+                      "id": "fm8mL",
+                      "fill": "$white",
+                      "content": "About",
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "text",
+                      "id": "xDwV3",
+                      "fill": "$white",
+                      "content": "Contact",
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    },
+                    {
+                      "type": "frame",
+                      "id": "imJUU",
+                      "name": "bookBtn",
+                      "fill": "$gold",
+                      "cornerRadius": 9999,
+                      "padding": [
+                        10,
+                        24
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "rIOVI",
+                          "fill": "$ink",
+                          "content": "Book Now",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "O5aUu",
+              "name": "heroContent",
+              "width": 800,
+              "layout": "vertical",
+              "gap": 32,
+              "padding": [
+                80,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "fHqwJ",
+                  "name": "headlineWrap",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "P9KU0",
+                      "fill": "$white",
+                      "content": "We Don't Just Take Pictures,",
+                      "textAlign": "center",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 56
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vw83o",
+                      "name": "legendsRow",
+                      "gap": 14,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Suwtu",
+                          "fill": "$white",
+                          "content": "We Capture",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 56
+                        },
+                        {
+                          "type": "text",
+                          "id": "O8CVz",
+                          "fill": "$gold",
+                          "content": "Legends.",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 56
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "ti6xs",
+                  "name": "subtext",
+                  "opacity": 0.7,
+                  "fill": "$white",
+                  "content": "Capturing real moments. Creating timeless memories.",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 18
+                },
+                {
+                  "type": "frame",
+                  "id": "yFB99",
+                  "name": "ctaRow",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "IncVy",
+                      "name": "whatsappBtn",
+                      "fill": "$gold",
+                      "cornerRadius": 9999,
+                      "gap": 8,
+                      "padding": [
+                        16,
+                        32
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "FaRNQ",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "message-circle",
+                          "iconFontFamily": "lucide",
+                          "fill": "$ink"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Q2qaZh",
+                          "fill": "$ink",
+                          "content": "WhatsApp Us",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "knZZS",
+                      "name": "callBtn",
+                      "cornerRadius": 9999,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$white-20"
+                      },
+                      "gap": 8,
+                      "padding": [
+                        16,
+                        32
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "vDSeD",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "phone",
+                          "iconFontFamily": "lucide",
+                          "fill": "$white"
+                        },
+                        {
+                          "type": "text",
+                          "id": "IWBox",
+                          "fill": "$white",
+                          "content": "Call Now",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "phi2J",
+          "name": "Manifesto Section",
+          "width": "fill_container",
+          "fill": "$bone",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            80,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "A51aUa",
+              "name": "manifestoInner",
+              "width": 800,
+              "layout": "vertical",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "a0IwR",
+                  "fill": "$ink",
+                  "content": "Stories Live in the Details",
+                  "textAlign": "center",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 40,
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "P4Z0K0",
+                  "fill": "$muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Every smile, every tear, every moment — frozen in time, remembered forever. We are Small Street Photography by Baraza, and we believe your story deserves to be told with artistry, passion, and soul.",
+                  "lineHeight": 1.7,
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 18
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ozhK4",
+          "name": "Services Section",
+          "width": "fill_container",
+          "fill": "$ink",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": 80,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "ezujt",
+              "name": "servicesHeader",
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Y1SgZ",
+                  "fill": "$gold",
+                  "content": "Our Services",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "F9QIJT",
+                  "fill": "$white",
+                  "content": "What We Capture",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 44
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "d5imLV",
+              "name": "cardsRow",
+              "width": "fill_container",
+              "gap": 20,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "TqDKN",
+                  "name": "card1",
+                  "width": "fill_container",
+                  "fill": "$stone",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$white-10"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "b1upk",
+                      "name": "icon1wrap",
+                      "width": 52,
+                      "height": 52,
+                      "fill": "$gold",
+                      "cornerRadius": 9999,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "Lt336",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "heart",
+                          "iconFontFamily": "lucide",
+                          "fill": "$ink"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "SuUG3",
+                      "fill": "$white",
+                      "content": "Wedding Photoshoot",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "P6ied",
+                      "fill": "$muted",
+                      "content": "Timeless moments of your big day",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "PZ3UI",
+                  "name": "card2",
+                  "width": "fill_container",
+                  "fill": "$stone",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$white-10"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ohMNK",
+                      "name": "icon2wrap",
+                      "width": 52,
+                      "height": 52,
+                      "fill": "$gold",
+                      "cornerRadius": 9999,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "vf7pF",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "sparkles",
+                          "iconFontFamily": "lucide",
+                          "fill": "$ink"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Npkzn",
+                      "fill": "$white",
+                      "content": "Bridal Shower",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Q0J0xl",
+                      "fill": "$muted",
+                      "content": "Celebrate the bride-to-be in style",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cf7A5",
+                  "name": "card3",
+                  "width": "fill_container",
+                  "fill": "$stone",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$white-10"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ZUoBk",
+                      "name": "icon3wrap",
+                      "width": 52,
+                      "height": 52,
+                      "fill": "$gold",
+                      "cornerRadius": 9999,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "p4DvNC",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "graduation-cap",
+                          "iconFontFamily": "lucide",
+                          "fill": "$ink"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "AHQpl",
+                      "fill": "$white",
+                      "content": "Graduations",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "JEIV6",
+                      "fill": "$muted",
+                      "content": "Mark your academic milestones",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Oqfh6",
+                  "name": "card4",
+                  "width": "fill_container",
+                  "fill": "$stone",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$white-10"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "P99qDu",
+                      "name": "icon4wrap",
+                      "width": 52,
+                      "height": 52,
+                      "fill": "$gold",
+                      "cornerRadius": 9999,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "rQmw4",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "cake",
+                          "iconFontFamily": "lucide",
+                          "fill": "$ink"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "QwqD5",
+                      "fill": "$white",
+                      "content": "Birthday Photoshoot",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "I1HTHm",
+                      "fill": "$muted",
+                      "content": "Fun and vibrant birthday memories",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "LnqBC",
+                  "name": "card5",
+                  "width": "fill_container",
+                  "fill": "$stone",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$white-10"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "yxrMO",
+                      "name": "icon5wrap",
+                      "width": 52,
+                      "height": 52,
+                      "fill": "$gold",
+                      "cornerRadius": 9999,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "P25SNg",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "landmark",
+                          "iconFontFamily": "lucide",
+                          "fill": "$ink"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "pnlDx",
+                      "fill": "$white",
+                      "content": "Tombstones",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "DpVks",
+                      "fill": "$muted",
+                      "content": "Honoring memories with dignity",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "qJUQP",
+          "name": "Portfolio Section",
+          "width": "fill_container",
+          "fill": "$bone",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "kbx48",
+              "name": "portHeader",
+              "width": 700,
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "x9Rv7q",
+                  "name": "portEyebrow",
+                  "fill": "$gold",
+                  "content": "PORTFOLIO",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "M3eJCx",
+                  "name": "portTitle",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": 700,
+                  "content": "Our Work Speaks for Itself",
+                  "textAlign": "center",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 40,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "CCBD3",
+                  "name": "portSubtitle",
+                  "fill": "$muted",
+                  "textGrowth": "fixed-width",
+                  "width": 600,
+                  "content": "From intimate bridal showers to grand wedding celebrations, every shoot tells a unique story.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "RRXio",
+              "name": "portGrid",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "MWGUE",
+                  "name": "col1",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "y9cH5E",
+                      "name": "img1",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 380,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1779125253447.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 8
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ptNn6",
+                      "name": "lbl1",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "wTJVw",
+                          "name": "lbl1t",
+                          "fill": "$ink",
+                          "content": "Wedding Collection",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Jt6iI",
+                          "name": "lbl1c",
+                          "fill": "$muted",
+                          "content": "12 Photos",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Cghb9",
+                      "name": "img2",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 280,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1779125261088.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 8
+                    },
+                    {
+                      "type": "frame",
+                      "id": "kP9bI",
+                      "name": "lbl2",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "A3sce",
+                          "name": "lbl2t",
+                          "fill": "$ink",
+                          "content": "Birthday Moments",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "qcO4q",
+                          "name": "lbl2c",
+                          "fill": "$muted",
+                          "content": "8 Photos",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "TdOl4",
+                  "name": "col2",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "zNWF2",
+                      "name": "img3",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 280,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1779125257726.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 8
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gC4R7",
+                      "name": "lbl3",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "qLumB",
+                          "name": "lbl3t",
+                          "fill": "$ink",
+                          "content": "Bridal Showers",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "F6my2",
+                          "name": "lbl3c",
+                          "fill": "$muted",
+                          "content": "10 Photos",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "jlfih",
+                      "name": "img4",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 380,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1779125262254.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 8
+                    },
+                    {
+                      "type": "frame",
+                      "id": "tdXSo",
+                      "name": "lbl4",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "YNtCo",
+                          "name": "lbl4t",
+                          "fill": "$ink",
+                          "content": "Graduations",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Gf5G8",
+                          "name": "lbl4c",
+                          "fill": "$muted",
+                          "content": "15 Photos",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "pSrHS",
+                  "name": "col3",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "kQpml",
+                      "name": "img5",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 340,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1779125254963.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 8
+                    },
+                    {
+                      "type": "frame",
+                      "id": "KnkJp",
+                      "name": "lbl5",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "oD7II",
+                          "name": "lbl5t",
+                          "fill": "$ink",
+                          "content": "Memorial & Tombstones",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "XR5PT",
+                          "name": "lbl5c",
+                          "fill": "$muted",
+                          "content": "6 Photos",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "c7r0sl",
+                      "name": "img6",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 320,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1779125250989.png",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 8
+                    },
+                    {
+                      "type": "frame",
+                      "id": "tP7QZ",
+                      "name": "lbl6",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "dQtF3",
+                          "name": "lbl6t",
+                          "fill": "$ink",
+                          "content": "Featured Highlights",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "CSGbd",
+                          "name": "lbl6c",
+                          "fill": "$muted",
+                          "content": "20 Photos",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "YpAtI",
+              "name": "viewAllBtn",
+              "fill": "$ink",
+              "cornerRadius": 9999,
+              "gap": 8,
+              "padding": [
+                14,
+                32
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "W26n5i",
+                  "name": "viewAllText",
+                  "fill": "$bone",
+                  "content": "View Full Portfolio",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "GrRjF",
+                  "name": "viewAllIcon",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "arrow-right",
+                  "iconFontFamily": "lucide",
+                  "fill": "$bone"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "iMPPx",
+          "name": "About Section",
+          "width": "fill_container",
+          "fill": "$ink",
+          "layout": "vertical",
+          "padding": [
+            80,
+            120
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "jWney",
+              "name": "aboutRow",
+              "width": "fill_container",
+              "gap": 64,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "WvEyF",
+                  "name": "aboutImg",
+                  "clip": true,
+                  "width": 500,
+                  "height": 560,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1779125289080.png",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 12
+                },
+                {
+                  "type": "frame",
+                  "id": "tw3qp",
+                  "name": "aboutText",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "t8SQX",
+                      "name": "aboutEyebrow",
+                      "fill": "$gold",
+                      "content": "MEET THE FOUNDER",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600",
+                      "letterSpacing": 3
+                    },
+                    {
+                      "type": "text",
+                      "id": "zzPrW",
+                      "name": "aboutName",
+                      "fill": "$white",
+                      "content": "Letlhogonolo Kotsi",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 40,
+                      "fontWeight": "700",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "text",
+                      "id": "H7n0fc",
+                      "name": "aboutRole",
+                      "fill": "$gold",
+                      "content": "Founder & Lead Photographer",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "F2olG",
+                      "name": "aboutP1",
+                      "opacity": 0.8,
+                      "fill": "$white",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "From the bustling streets of Small Street to the grandest wedding venues, Letlhogonolo Kotsi has spent years perfecting the art of capturing life's most meaningful moments.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "UNXuC",
+                      "name": "aboutP2",
+                      "opacity": 0.7,
+                      "fill": "$white",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "What started as a passion for storytelling through the lens has grown into Small Street Photography by Baraza — a studio built on authenticity, artistry, and a deep love for preserving legacies.",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "n6dWCU",
+                      "name": "aboutBtn",
+                      "cornerRadius": 9999,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$gold"
+                      },
+                      "gap": 8,
+                      "padding": [
+                        12,
+                        28
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "dbOVb",
+                          "name": "aboutBtnText",
+                          "fill": "$gold",
+                          "content": "Read Full Story",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "nrfmN",
+                          "name": "aboutBtnIcon",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "arrow-right",
+                          "iconFontFamily": "lucide",
+                          "fill": "$gold"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "fXCrX",
+          "name": "Contact CTA Section",
+          "width": "fill_container",
+          "fill": "$gold",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            64,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "R51vt",
+              "name": "ctaHeadline",
+              "fill": "$ink",
+              "content": "Let's Work Together",
+              "textAlign": "center",
+              "fontFamily": "Playfair Display",
+              "fontSize": 48,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "yjFhw",
+              "name": "ctaSub",
+              "opacity": 0.8,
+              "fill": "$ink",
+              "textGrowth": "fixed-width",
+              "width": 600,
+              "content": "Ready to capture your next milestone? Get in touch and let's create something legendary.",
+              "lineHeight": 1.6,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "Bo2Ib",
+              "name": "ctaBtns",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ORjxx",
+                  "name": "waBtn",
+                  "fill": "$ink",
+                  "cornerRadius": 9999,
+                  "gap": 10,
+                  "padding": [
+                    16,
+                    32
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "i6C7uD",
+                      "name": "waIcon",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "message-circle",
+                      "iconFontFamily": "lucide",
+                      "fill": "$gold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "o5Pww",
+                      "name": "waText",
+                      "fill": "$white",
+                      "content": "WhatsApp Us",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "QyD0c",
+                  "name": "callBtn",
+                  "cornerRadius": 9999,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "$ink"
+                  },
+                  "gap": 10,
+                  "padding": [
+                    16,
+                    32
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "VzOIg",
+                      "name": "callIcon",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "phone",
+                      "iconFontFamily": "lucide",
+                      "fill": "$ink"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qw8WW",
+                      "name": "callText",
+                      "fill": "$ink",
+                      "content": "Call Now",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "bc17R",
+              "name": "ctaNumbers",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "EMUnV",
+                  "name": "waNum",
+                  "opacity": 0.7,
+                  "fill": "$ink",
+                  "content": "062 203 0185 (WhatsApp)",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "r1mLG",
+                  "name": "divTxt",
+                  "opacity": 0.4,
+                  "fill": "$ink",
+                  "content": "|",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "n9iUt4",
+                  "name": "callNum",
+                  "opacity": 0.7,
+                  "fill": "$ink",
+                  "content": "061 369 3823 (Call)",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Yonp1",
+          "name": "Footer Section",
+          "width": "fill_container",
+          "fill": "$ink",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            48,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "line",
+              "id": "qeqkf",
+              "name": "footDivider",
+              "width": "fill_container",
+              "height": 0,
+              "stroke": {
+                "align": "center",
+                "thickness": 1,
+                "fill": "$divider"
+              }
+            },
+            {
+              "type": "frame",
+              "id": "hZ4fA",
+              "name": "footContent",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "zEWme",
+                  "name": "footLeft",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "wKrz0",
+                      "name": "footBrand",
+                      "fill": "$white",
+                      "content": "Small Street Photography",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "e9NGC5",
+                      "name": "footByline",
+                      "fill": "$gold",
+                      "content": "by Baraza",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 14,
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FwTaF",
+                      "name": "footTagline",
+                      "fill": "$muted",
+                      "content": "We Capture Legends.",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "WjbBv",
+                  "name": "footCenter",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "EiA70",
+                      "name": "footNavLabel",
+                      "fill": "$white",
+                      "content": "Quick Links",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "p9rgO",
+                      "name": "footNav1",
+                      "fill": "$muted",
+                      "content": "Portfolio",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "AgU6J",
+                      "name": "footNav2",
+                      "fill": "$muted",
+                      "content": "Services",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "APZEP",
+                      "name": "footNav3",
+                      "fill": "$muted",
+                      "content": "About",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NasQI",
+                      "name": "footNav4",
+                      "fill": "$muted",
+                      "content": "Contact",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "hNElH",
+                  "name": "footRight",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "M4ZBqh",
+                      "name": "footSocialLabel",
+                      "fill": "$white",
+                      "content": "Follow Us",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "frame",
+                      "id": "scCNA",
+                      "name": "footSocials",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "ABPvG",
+                          "name": "fbIcon",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "facebook",
+                          "iconFontFamily": "lucide",
+                          "fill": "$muted"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "mFCdg",
+                          "name": "igIcon",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "instagram",
+                          "iconFontFamily": "lucide",
+                          "fill": "$muted"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "EgZyN",
+                      "name": "footLocation",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "z8p1MO",
+                          "name": "locIcon",
+                          "width": 14,
+                          "height": 14,
+                          "iconFontName": "map-pin",
+                          "iconFontFamily": "lucide",
+                          "fill": "$gold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "SrtRf",
+                          "name": "locText",
+                          "fill": "$muted",
+                          "content": "Based in Town, South Africa",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "UeLoA",
+              "name": "footCopy",
+              "opacity": 0.6,
+              "fill": "$muted",
+              "content": "© 2026 Small Street Photography by Baraza. All rights reserved.",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "jUq6S",
+      "x": 1540,
+      "y": 0,
+      "name": "Kotsi Mobile (375px)",
+      "width": 375,
+      "height": "fit_content(0)",
+      "fill": "#0A0A0AFF",
+      "layout": "vertical"
+    }
+  ],
+  "variables": {
+    "bone": {
+      "type": "color",
+      "value": "#F5F1EAFF"
+    },
+    "divider": {
+      "type": "color",
+      "value": "#FFFFFF14"
+    },
+    "gold": {
+      "type": "color",
+      "value": "#D4A017FF"
+    },
+    "gold-bright": {
+      "type": "color",
+      "value": "#F5B800FF"
+    },
+    "ink": {
+      "type": "color",
+      "value": "#0A0A0AFF"
+    },
+    "muted": {
+      "type": "color",
+      "value": "#6B6B6BFF"
+    },
+    "stone": {
+      "type": "color",
+      "value": "#1A1A1AFF"
+    },
+    "white": {
+      "type": "color",
+      "value": "#FFFFFFFF"
+    },
+    "white-10": {
+      "type": "color",
+      "value": "#FFFFFF1A"
+    },
+    "white-20": {
+      "type": "color",
+      "value": "#FFFFFF33"
+    }
+  }
+}
