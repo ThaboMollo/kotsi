@@ -3,12 +3,17 @@ export const site = {
   shortName: "Small Street Photography",
   tagline: "We don't just take pictures, we capture legends.",
   subTagline: "Capturing real moments. Creating timeless memories.",
+  description:
+    "Small Street Photography by Baraza is a Gauteng photography studio for weddings, graduations, bridal showers, birthday photoshoots, tombstone unveilings, and family events across Johannesburg, Pretoria, and nearby communities.",
   slogan: "We Capture Legends.",
   founder: "Letlhogonolo Kotsi",
   founderTitle: "Founder & Lead Photographer",
-  location: "Based in Town, South Africa",
+  location: "Based in Gauteng, South Africa",
   url: "https://smallstreetphotography.co.za",
   locale: "en_ZA",
+  region: "Gauteng",
+  country: "South Africa",
+  serviceAreas: ["Johannesburg", "Pretoria", "Gauteng"],
   whatsapp: {
     display: "062 203 0185",
     link: "https://wa.me/27622030185?text=Hi%20Letlhogonolo%2C%20I'd%20like%20to%20enquire%20about%20your%20photography%20services.",
